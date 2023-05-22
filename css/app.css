@@ -966,6 +966,10 @@ span.w3-button:hover {
     text-decoration: none;
     border: 2px solid #ffffff;
     padding: 15px 44px;
+    -webkit-border-radius: 200px;
+    -moz-border-radius: 200px;
+    -ms-border-radius: 200px;
+    -o-border-radius: 200px;
 }
 
 .location:hover {
@@ -1176,10 +1180,7 @@ li span {
         text-decoration: none;
         background: #fff;
         -webkit-filter: drop-shadow(0px 4px 9px rgba(0, 0, 0, 0.13));
-        -webkit-border-radius: 10px;
-        -moz-border-radius: 10px;
-        -ms-border-radius: 10px;
-        -o-border-radius: 10px;
+      
 }
     h1 {
         font-size: calc(1.5rem * var(--smaller));
@@ -1203,10 +1204,7 @@ li span {
         background: linear-gradient( 159.44deg, #ffffff 0%, rgba(255, 255, 255, 0.4) 35.72%, rgba(255, 255, 255, 0) 91.89%);
         box-shadow: 0px 4px 24px -1px rgb(0 0 0 / 10%);
         border-radius: 10px;
-        -webkit-border-radius: 10px;
-        -moz-border-radius: 10px;
-        -ms-border-radius: 10px;
-        -o-border-radius: 10px;
+       
 }
     .pembatas-number {
         font-size: 10px;
@@ -1361,12 +1359,19 @@ li span {
         background: transparent;
         margin-bottom: 30px;
         cursor: pointer;
-    }
+        -webkit-border-radius: 300px;
+        -moz-border-radius: 300px;
+        -ms-border-radius: 300px;
+        -o-border-radius: 300px;
+}
     .buka-udangan:hover {
         background: #fff;
         color: #575757;
         transition: all 0.3s ease;
-     
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
 }
     .main-img {
         z-index: 2;
@@ -1644,6 +1649,9 @@ li span {
         font-weight: 600;
         margin-bottom: 6rem;
     }
+
+
+
     .top-title {
         display: flex;
         justify-content: space-evenly;
@@ -1701,5 +1709,9 @@ li span {
         border-radius: 10px;
         width: 350px !important;
         margin: auto;
-    }
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+}
 }
